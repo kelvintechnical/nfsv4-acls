@@ -1,11 +1,11 @@
 # Lab: NFSv4 ACLs — `nfs4_getfacl` and `nfs4_setfacl` on an NFSv4 mount
 
-**Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
-**Subjects covered:** Why NFSv4 ACL text is **not** POSIX `getfacl` format, installing `nfs4-acl-tools`, exporting a small directory tree from localhost, mounting with `vers=4`, reading ACEs with `nfs4_getfacl`, adding and removing ACEs with `nfs4_setfacl`, SELinux and `nfs_export_all_rw` awareness at high level
-**Career arcs covered:** RHCSA (enterprise NAS integrations), RHCE (automation around NFS exports), SRE (multi-OS client permission mismatches), DevOps (Kubernetes ReadWriteMany volumes backed by NFS), AI/MLOps (shared read-mostly training corpora on NetApp-style exports)
-**Prerequisite:** Labs 47–48 (general ACL literacy) plus comfort restarting services
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 packages · 2–3 export + mount · 4–5 nfs4_get/set · 6 teardown
+- **Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
+- **Subjects covered:** Why NFSv4 ACL text is **not** POSIX `getfacl` format, installing `nfs4-acl-tools`, exporting a small directory tree from localhost, mounting with `vers=4`, reading ACEs with `nfs4_getfacl`, adding and removing ACEs with `nfs4_setfacl`, SELinux and `nfs_export_all_rw` awareness at high level
+- **Career arcs covered:** RHCSA (enterprise NAS integrations), RHCE (automation around NFS exports), SRE (multi-OS client permission mismatches), DevOps (Kubernetes ReadWriteMany volumes backed by NFS), AI/MLOps (shared read-mostly training corpora on NetApp-style exports)
+- **Prerequisite:** Labs 47–48 (general ACL literacy) plus comfort restarting services
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 packages · 2–3 export + mount · 4–5 nfs4_get/set · 6 teardown
 
 ---
 
